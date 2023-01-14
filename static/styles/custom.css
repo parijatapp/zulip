@@ -153,3 +153,51 @@ div#tab_bar {
   margin-top: 10px !important;
   padding: 0 8px !important;
 }
+
+.top-navbar-border {
+	border: none !important;
+}
+
+#userlist-toggle {
+	border: none !important;
+}
+
+li.top_left_all_messages, li.top_left_drafts, li.top_left_mentions, li.top_left_recent_topics, li.top_left_starred_messages {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.private_messages_container {
+	background: none !important;
+}
+#streams_header {
+	background: none !important;
+}
+.private_messages_container ul.pm-list li.pm-list-item {
+    position: relative !important;
+    padding: 10px 0px 5px 0px !important;
+}
+#stream_filters .subscription_block {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+    padding: 5px 0px 5px 0px !important;
+}
+
+#compose-content {
+	border: none !important;
+    transition: background-color .2s linear !important;
+    padding: 4px 4px 15px !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-flow: column !important;
+    box-sizing: border-box !important;
+}
+
+#compose_buttons .new_message_button .button.small {
+    font-size: 1em !important;
+    padding: 15px 15px !important;
+    vertical-align: middle !important;
+}
